@@ -37,7 +37,7 @@ nav.top-nav ul {
 nav.top-nav li {
   font-family: Verdana;
   font-size: 18px;
-  color: white;
+#  color: white;
   margin: 5px;
   display: inline-block;
   padding: 5px;
@@ -46,6 +46,7 @@ nav.top-nav li {
   position: relative;
   margin-right: 60px;
   padding-top: 15px;
+  font-weight: bold;
 
 }
 
@@ -57,16 +58,6 @@ nav.top-nav li:active {
   color: #fff;
 }
 
-.top-nav .pulldown-menu {
-  display: none;
-  position: absolute;
-  background-color: white;
-  border: 1px solid #333;
-  border-radius: 4px;
-  top: 26px;
-  left: 5px;
-  width: 170px;
-}
 
 nav.top-nav .pulldown-menu li {
   color: #333;
@@ -102,11 +93,13 @@ h1.landingPage {
   width: 550px;
   padding-left: 0px;
   padding-right: 30px;
-  margin-right: 80px;
+  margin-right: 190px;
+  font-size: 18px;
+  font-familY; Helvetica;
 }
 
 .Profile img{
-  width: 40%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -139,8 +132,10 @@ h1.landingPage {
 }
 
 .project-name{
-  font-family: sans-serif;
+  font-family: Helvetica;
   margin-left: 100px;
+  font-size: 18px
+
 }
 
 .playercollage{
@@ -197,22 +192,128 @@ h1.landingPage {
 }
 
 .aboutme{
-  padding-top: 40px;
+  padding-top: 20px;
   text-align: center;
   Font-family: Helvetica;
 }
 
 .writing1{
-  margin-top: 40px;
+  margin-top: 30px;
   font-family: Helvetica;
-  margin-left: 130px;
+#  margin-left: 130px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .writing2{
   font-family: Helvetica;
-  margin-left: 130px;
+  margin-left: 330px;
+  font-size: 18px;
+  #margin-right: 180px;
+  display: flex;
+  max-width: 800px;
+  padding-bottom: 20px;
 }
 
 .album-select{
   font-family: Helvetica;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.album-select-info, .writing3{
+  font-family: Helvetica;
+  margin-left: 130px;
+  font-size: 18px;
+}
+
+.writing4{
+  font-family: Helvetica;
+  margin-left: 130px;
+}
+
+.writing5{
+  font-family: Helvetica;
+  margin-left: 130px;
+}
+
+.album-select-info{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+.song-select{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.song-page{
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.song-select-info{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 220px;
+  margin-right: 300px;
+}
+
+.song-select-info, .writing4 {
+  font-family: Helvetica;
+  margin-left: 160px;
+  font-size: 18px;
+}
+
+.song-page-info{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.song-page-info p {
+  font-family: Helvetica;
+  margin-left: 110px;
+  font-size: 18px;
+  width: 800px;
+  padding-right: 40px;
+
+}
+
+.song-page-info img{
+  width: 200px;
+  padding-right: 50px;
+  padding-left: 20px;
+
+}
+
+.resume{
+  text-align: center;
+  font-family: Helvetica;
+  padding-top: 20px;
+}
+
+.resumedownload{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 50px;
+  width: 180px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.contact{
+  padding-top: 20px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.email{
+  padding-top: 10px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
 }
