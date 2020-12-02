@@ -1,0 +1,218 @@
+main {
+  margin-top: 100px;
+  margin-left: 2em;
+}
+
+nav.top-nav{
+  background-color: #e6ccff;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 4px 4px #0003;
+  margin-left: auto;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  padding-right: 30px;
+}
+
+nav .name{
+  font-family: Verdana;
+  color: black;
+  padding-left: 80px;
+  font-size: 40px;
+  margin-bottom: auto;
+  margin-top: 20px;
+  margin-left: 60px;
+ #add a border to the letters.
+}
+
+nav.top-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav.top-nav li {
+  font-family: Verdana;
+  font-size: 18px;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  padding: 5px;
+  padding-right: 30px;
+  user-select: none;
+  position: relative;
+  margin-right: 60px;
+  padding-top: 15px;
+
+}
+
+nav.top-nav li:hover {
+  text-decoration:underline;
+}
+
+nav.top-nav li:active {
+  color: #fff;
+}
+
+.top-nav .pulldown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  top: 26px;
+  left: 5px;
+  width: 170px;
+}
+
+nav.top-nav .pulldown-menu li {
+  color: #333;
+  display: block;
+  padding: 5px;
+  font-weight: 200;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1.landingPage {
+  text-align: center;
+}
+
+.Profile{
+  display: flex;
+  font-family: sans-serif;
+  position: relative;
+  font-weight: lighter;
+}
+
+.about-text{
+  padding-top: 20px;
+  display: block;
+  color: black;
+  width: 550px;
+  padding-left: 0px;
+  padding-right: 30px;
+  margin-right: 80px;
+}
+
+.Profile img{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.screenshot img{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Project-title{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.project-header{
+  text-align: center;
+  font-family: Helvetica;
+  padding-top: 50px;
+}
+
+.project-type{
+  color: gray;
+  font-family: sans-serif;
+  margin-left: 100px;
+}
+
+.project-name{
+  font-family: sans-serif;
+  margin-left: 100px;
+}
+
+.playercollage{
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 15px;
+  margin-right: 90px;
+  margin-left: 100px;
+}
+
+.playercollage img{
+  width: 375px;
+  height: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  object-fit: cover;
+  padding-right: 5px;
+  margin-left: 15px;
+  object-position: 20% 40%;
+}
+
+.project1{
+  padding-bottom: 40px;
+}
+
+.researchcollage{
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 15px;
+  margin-right: 90px;
+  margin-left: 100px;
+}
+
+.researchcollage img{
+  width: 375px;
+  height: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  object-fit: cover;
+  padding-right: 5px;
+  margin-left: 15px;
+  object-position: 20% 40%;
+}
+
+.hello{
+  font-family: Helvetica;
+  padding-top: 40px;
+  margin-left: 100px;
+}
+
+.student{
+  margin-left: 100px;
+  font-family: Helvetica;
+}
+
+.aboutme{
+  padding-top: 40px;
+  text-align: center;
+  Font-family: Helvetica;
+}
+
+.writing1{
+  margin-top: 40px;
+  font-family: Helvetica;
+  margin-left: 130px;
+}
+
+.writing2{
+  font-family: Helvetica;
+  margin-left: 130px;
+}
+
+.album-select{
+  font-family: Helvetica;
+}
